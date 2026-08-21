@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "source": "cme-quikstrike-vol2vol",
+  "kind": "delta-strikes",
+  "_note": "strike ที่เส้นประแนวตั้งบนกราฟ Vol2Vol ปักอยู่ (CME คำนวณเดลตาให้แล้ว)",
+  "captured_at": "2026-08-21T12:45:47.847252+07:00",
+  "captured_at_epoch": 1787291147.847252,
+  "timezone": "Asia/Bangkok",
+  "max_age_seconds": 1200,
+  "product": "Gold (OG|GC)",
+  "contract": "OG3Q6",
+  "dte": 0.49,
+  "future": 4558.9,
+  "future_chg": 21.8,
+  "iv_pct": 29.77,
+  "deltas": {
+    "5DP": 4428.3785,
+    "15DP": 4474.7249,
+    "25DP": 4497.9228,
+    "35DP": 4513.824,
+    "45DP": 4529.3484,
+    "45DC": 4545.7262,
+    "35DC": 4562.1682,
+    "25DC": 4579.9627,
+    "15DC": 4607.0003,
+    "5DC": 4662.7256
+  },
+  "put": [
+    {
+      "delta": 5,
+      "key": "5DP",
+      "strike": 4428.3785,
+      "dist": -130.5215
+    },
+    {
+      "delta": 15,
+      "key": "15DP",
+      "strike": 4474.7249,
+      "dist": -84.1751
+    },
+    {
+      "delta": 25,
+      "key": "25DP",
+      "strike": 4497.9228,
+      "dist": -60.9772
+    },
+    {
+      "delta": 35,
+      "key": "35DP",
+      "strike": 4513.824,
+      "dist": -45.076
+    },
+    {
+      "delta": 45,
+      "key": "45DP",
+      "strike": 4529.3484,
+      "dist": -29.5516
+    }
+  ],
+  "call": [
+    {
+      "delta": 45,
+      "key": "45DC",
+      "strike": 4545.7262,
+      "dist": -13.1738
+    },
+    {
+      "delta": 35,
+      "key": "35DC",
+      "strike": 4562.1682,
+      "dist": 3.2682
+    },
+    {
+      "delta": 25,
+      "key": "25DC",
+      "strike": 4579.9627,
+      "dist": 21.0627
+    },
+    {
+      "delta": 15,
+      "key": "15DC",
+      "strike": 4607.0003,
+      "dist": 48.1003
+    },
+    {
+      "delta": 5,
+      "key": "5DC",
+      "strike": 4662.7256,
+      "dist": 103.8256
+    }
+  ],
+  "other_lines": [
+    {
+      "label": "Future: 4558.9",
+      "value": 4558.9
+    }
+  ],
+  "n": 10
+}
