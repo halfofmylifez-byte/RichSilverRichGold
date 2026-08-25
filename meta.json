@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "source": "cme-quikstrike-vol2vol",
-  "generated_at": "2026-08-25T08:16:38.459304+07:00",
-  "generated_at_utc": "2026-08-25T01:16:38Z",
-  "generated_at_epoch": 1787620598.459,
+  "generated_at": "2026-08-25T08:22:48.533693+07:00",
+  "generated_at_utc": "2026-08-25T01:22:48Z",
+  "generated_at_epoch": 1787620968.534,
   "timezone": "Asia/Bangkok",
   "session_day": "2026-08-25",
   "session_roll_hour": 1.0,
@@ -11,7 +11,7 @@
   "front": {
     "option_contract": "G4TQ6",
     "option_code_from": "cme_header",
-    "dte": 0.68,
+    "dte": 0.67,
     "expiry_date": "2026-08-25",
     "expiry_date_from": "cme_expiration_panel",
     "expiry_date_seen": {
@@ -23,9 +23,9 @@
     "expiry_utc_epoch": 1787678955.6,
     "expiry_utc_from": "solved_from_dte",
     "expiry_utc_window_sec": 7.1,
-    "expiry_utc_samples": 54,
+    "expiry_utc_samples": 55,
     "expiry_date_mismatch": false,
-    "seconds_to_expiry": 58357.2,
+    "seconds_to_expiry": 57987.1,
     "expired": false,
     "underlying": {
       "product": "Gold (OG|GC)",
@@ -36,6 +36,46 @@
       "symbol": "GCV6",
       "symbol_from": "cme_expiration_tooltip",
       "tip": "Option Contract:\t\tAug 2026\nOption Expiration:\t8/25/2026 (0.68 DTE)\nOption Symbol:\t\tG4TQ6\nUnderlying Future:\tOct 2026\nUnderlying Symbol:\tGCV6",
+      "candidates_seen": [
+        "GCV6"
+      ],
+      "symbol_variants": [
+        "GCV6",
+        "GCV26",
+        "GCV2026"
+      ],
+      "future_month": "Oct 2026",
+      "_อ่านตรงนี้": "symbol มาจาก tooltip บนแผงเลือกสัญญาของ CME · ถ้าเป็น null ให้จับคู่ด้วย price แทน (เทียบราคาแม่นกว่าเดารหัส)"
+    }
+  },
+  "next": {
+    "option_contract": "OGU6",
+    "option_code_from": "cme_header",
+    "dte": 1.67,
+    "expiry_date": "2026-08-26",
+    "expiry_date_from": "cme_expiration_panel",
+    "expiry_date_seen": {
+      "panel": "2026-08-26",
+      "tooltip": "2026-08-26",
+      "จาก_dte": "2026-08-26"
+    },
+    "expiry_utc": "2026-08-26T17:28:56Z",
+    "expiry_utc_epoch": 1787765336.3,
+    "expiry_utc_from": "solved_from_dte",
+    "expiry_utc_window_sec": 31.6,
+    "expiry_utc_samples": 53,
+    "expiry_date_mismatch": false,
+    "seconds_to_expiry": 144367.8,
+    "expired": false,
+    "underlying": {
+      "product": "Gold (OG|GC)",
+      "future_root": "GC",
+      "price": 4673.0,
+      "price_chg": 11.6,
+      "price_line": "Future: 4673",
+      "symbol": "GCV6",
+      "symbol_from": "cme_expiration_tooltip",
+      "tip": "Option Contract:\t\tSep 2026\nOption Expiration:\t8/26/2026 (1.68 DTE)\nOption Symbol:\t\tOGU6\nUnderlying Future:\tOct 2026\nUnderlying Symbol:\tGCV6",
       "candidates_seen": [
         "GCV6"
       ],
