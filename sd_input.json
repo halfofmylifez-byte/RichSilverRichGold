@@ -1,22 +1,43 @@
 {
   "schema": 1,
   "source": "cme-quikstrike-eventvol",
-  "captured_at": "2026-09-21T04:08:03.384000+07:00",
-  "captured_at_epoch": 1789938483.384,
+  "captured_at": "2026-09-21T04:38:10.097000+07:00",
+  "captured_at_epoch": 1789940290.097,
   "timezone": "Asia/Bangkok",
   "max_age_seconds": 2700.0,
   "dte_floor": 0.02,
   "product": "Gold (OG|GC)",
   "contract": "G3MU6",
   "expires": "9/21/2026",
-  "dte": 0.85,
-  "future": null,
+  "dte": 0.83,
+  "future": 4364.0,
   "iv": 0.1493,
   "iv_pct": 14.93,
-  "sigma_1": null,
+  "sigma_1": 31.0697,
   "sigma_formula": "future * iv * sqrt(dte/365)",
-  "zones": null,
-  "forward_vol_pct": 18.85,
+  "zones": {
+    "0.25": [
+      4356.2326,
+      4371.7674
+    ],
+    "0.5": [
+      4348.4651,
+      4379.5349
+    ],
+    "1.0": [
+      4332.9303,
+      4395.0697
+    ],
+    "1.5": [
+      4317.3954,
+      4410.6046
+    ],
+    "2.0": [
+      4301.8606,
+      4426.1394
+    ]
+  },
+  "forward_vol_pct": 18.81,
   "future_chg": null,
   "iv_chg_pct": null,
   "cme": null,
@@ -24,154 +45,154 @@
   "intraday": null,
   "oi": null,
   "oi_change": null,
-  "price_error": "ต่อ bridge_server ไม่ได้: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+  "price_error": null,
   "all_contracts": [
     {
       "symbol": "OGX6",
       "expires": "10/27/2026",
-      "dte": 36.85,
+      "dte": 36.83,
       "iv_pct": 21.15,
       "forward_vol_pct": null
     },
     {
       "symbol": "G4RV6",
       "expires": "10/22/2026",
-      "dte": 31.85,
+      "dte": 31.83,
       "iv_pct": 21.12,
       "forward_vol_pct": 21.31
     },
     {
       "symbol": "G3RV6",
       "expires": "10/15/2026",
-      "dte": 24.85,
+      "dte": 24.83,
       "iv_pct": 21,
       "forward_vol_pct": 21.57
     },
     {
       "symbol": "G2WV6",
       "expires": "10/14/2026",
-      "dte": 23.85,
+      "dte": 23.83,
       "iv_pct": 20.87,
-      "forward_vol_pct": 23.85
+      "forward_vol_pct": 23.84
     },
     {
       "symbol": "G2TV6",
       "expires": "10/13/2026",
-      "dte": 22.85,
+      "dte": 22.83,
       "iv_pct": 20.2,
-      "forward_vol_pct": 32.68
+      "forward_vol_pct": 32.67
     },
     {
       "symbol": "G2MV6",
       "expires": "10/12/2026",
-      "dte": 21.85,
+      "dte": 21.83,
       "iv_pct": 20.03,
       "forward_vol_pct": 23.63
     },
     {
       "symbol": "OG2V6",
       "expires": "10/9/2026",
-      "dte": 18.85,
+      "dte": 18.83,
       "iv_pct": 20.67,
       "forward_vol_pct": 15.38
     },
     {
       "symbol": "G2RV6",
       "expires": "10/8/2026",
-      "dte": 17.85,
+      "dte": 17.83,
       "iv_pct": 20.46,
       "forward_vol_pct": 24.03
     },
     {
       "symbol": "G1WV6",
       "expires": "10/7/2026",
-      "dte": 16.85,
+      "dte": 16.83,
       "iv_pct": 20.19,
       "forward_vol_pct": 24.63
     },
     {
       "symbol": "G1TV6",
       "expires": "10/6/2026",
-      "dte": 15.85,
+      "dte": 15.83,
       "iv_pct": 19.94,
       "forward_vol_pct": 23.83
     },
     {
       "symbol": "G1MV6",
       "expires": "10/5/2026",
-      "dte": 14.85,
+      "dte": 14.83,
       "iv_pct": 19.69,
       "forward_vol_pct": 23.31
     },
     {
       "symbol": "OG1V6",
       "expires": "10/2/2026",
-      "dte": 11.85,
+      "dte": 11.83,
       "iv_pct": 20.53,
-      "forward_vol_pct": 15.93
+      "forward_vol_pct": 15.94
     },
     {
       "symbol": "G1RV6",
       "expires": "10/1/2026",
-      "dte": 10.85,
+      "dte": 10.83,
       "iv_pct": 19.67,
-      "forward_vol_pct": 28.25
+      "forward_vol_pct": 28.24
     },
     {
       "symbol": "G5WU6",
       "expires": "9/30/2026",
-      "dte": 9.85,
+      "dte": 9.83,
       "iv_pct": 19.25,
-      "forward_vol_pct": 23.43
+      "forward_vol_pct": 23.42
     },
     {
       "symbol": "G5TU6",
       "expires": "9/29/2026",
-      "dte": 8.85,
+      "dte": 8.83,
       "iv_pct": 18.78,
       "forward_vol_pct": 22.92
     },
     {
       "symbol": "G4MU6",
       "expires": "9/28/2026",
-      "dte": 7.85,
+      "dte": 7.83,
       "iv_pct": 18.22,
-      "forward_vol_pct": 22.71
+      "forward_vol_pct": 22.7
     },
     {
       "symbol": "OG4U6",
       "expires": "9/25/2026",
-      "dte": 4.85,
+      "dte": 4.83,
       "iv_pct": 19.73,
-      "forward_vol_pct": 15.47
+      "forward_vol_pct": 15.49
     },
     {
       "symbol": "OGV6",
       "expires": "9/24/2026",
-      "dte": 3.85,
+      "dte": 3.83,
       "iv_pct": 19.17,
-      "forward_vol_pct": 21.78
+      "forward_vol_pct": 21.77
     },
     {
       "symbol": "G4WU6",
       "expires": "9/23/2026",
-      "dte": 2.85,
+      "dte": 2.83,
       "iv_pct": 18.49,
-      "forward_vol_pct": 20.98
+      "forward_vol_pct": 20.97
     },
     {
       "symbol": "G4TU6",
       "expires": "9/22/2026",
-      "dte": 1.85,
+      "dte": 1.83,
       "iv_pct": 17.16,
-      "forward_vol_pct": 20.71
+      "forward_vol_pct": 20.69
     },
     {
       "symbol": "G3MU6",
       "expires": "9/21/2026",
-      "dte": 0.85,
+      "dte": 0.83,
       "iv_pct": 14.93,
-      "forward_vol_pct": 18.85
+      "forward_vol_pct": 18.81
     }
   ],
   "userscript_version": "1.4"
