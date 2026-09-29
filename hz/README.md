@@ -6,7 +6,7 @@
 
 | ไฟล์ | เนื้อหา |
 |---|---|
-| `rounds/<วันหมดอายุ>/<สัญญา>_<YYYYMMDD-HHMM>.json` | ทุกสไตรก์ของรอบนั้น (1 ไฟล์ = 1 รอบ · ไม่แก้ทีหลัง) |
+| `rounds/<วันหมดอายุ>/<สัญญา>_<YYYYMMDD-HHMM>.json` | ทุกสไตรก์ของรอบนั้น (1 ไฟล์ = 1 รอบ · ปกติไม่แก้ทีหลัง ยกเว้นตอนเพิ่มฟิลด์ใหม่) |
 | `latest.json` | รอบล่าสุดของสัญญาหน้า (รูปแบบเดียวกับไฟล์ใน rounds) |
 | `vols/<วันที่>/<YYYYMMDD-HHMM>.json` | term structure รายรอบ: `[symbol, dte, iv_pct, forward_vol_pct]` ทุกสัญญา |
 | `term_latest.json` | term structure รอบล่าสุด + expires + sigma/zones จากราคาฟิวเจอร์ส CME |
@@ -18,10 +18,11 @@
 - `expiry` สัญญาออปชัน (เช่น G5TU6) · `expiration` วันหมดอายุ · `underlying` ฟิวเจอร์ส (GCZ6)
 - `slot` เวลารอบ · `captured_at` เวลาที่ต้นทางเก็บจริง · `session_day` วันเทรด (ขึ้นวันใหม่ 01:00)
 - `future` ราคาฟิวเจอร์ส · `open` ราคาเปิดของวัน · `future_chg_vs_open`
-- `atm_vol` ATM IV % (ค่า settle — **ไม่ขยับระหว่างวัน**) · `dte` · `expiry_utc`
+- `atm_vol` ATM IV % ของ CME ตอนเก็บรอบนั้น (ขยับได้ระหว่างวัน — 29/09: 27.22 ถึงบ่าย → 28.18 ตอน 18:15) · `dte` · `expiry_utc`
 - `sd` ช่วง 1/2/3 SD ของ CME `{"1":[ล่าง,บน], …}` (ไม่สมมาตร)
 - `deltas` strike ของเส้นเดลตา `{"5P":…, "25C":…}`
-- `smile_fit` พารามิเตอร์เส้น smile ของต้นทาง `[center, width, a, b, c, d, atm, lo, hi, 0]`
+- `smile_fit` พารามิเตอร์เส้น **Vol Settle** ของต้นทาง `[center, width, a, b, c, d, atm, lo, hi, 0]`
+- `vol_now_fit` พารามิเตอร์เส้น **Vol สด** รูปแบบเดียวกัน (= ค่า `VOLN=` ในช่องคัดลอก TradingView ของหน้าเว็บ)
 - `totals` ยอดรวม + `pcr_vol` / `pcr_oi`
 
 `strikes` — บรรทัดละสไตรก์:
@@ -29,7 +30,8 @@
 | ฟิลด์ | ความหมาย |
 |---|---|
 | `k` | strike |
-| `iv` | Vol Settle ของสไตรก์ (%) |
+| `iv` | **Vol Settle** ของสไตรก์ (%) — เส้นแดงประบนหน้าเว็บ · ค่านี้คือคอลัมน์ 4 ของ IntradayData/OIData (÷100) |
+| `iv_now` | **Vol สด** ของสไตรก์ (%) — เส้นเขียวบนหน้าเว็บ · เพิ่มเมื่อ 29/09 18:30 (ไฟล์ของ 29/09 ส่งซ้ำให้มีครบทุกรอบแล้ว) |
 | `vol_c` `vol_p` | Intraday Volume **สะสม** ตั้งแต่เปิดวัน |
 | `vol_c_round` `vol_p_round` | Volume เฉพาะรอบนี้ (= สะสมรอบนี้ − รอบก่อน) |
 | `oi_c` `oi_p` | Open Interest (EOD เมื่อวาน · คงที่ทั้งวัน) |
