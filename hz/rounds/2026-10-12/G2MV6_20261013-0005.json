@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "G2MV6",
+  "expiration": "2026-10-12",
+  "underlying": "GCZ6",
+  "slot": "2026-10-13T00:05:00+07:00",
+  "slot_epoch_ms": 1791824700000,
+  "captured_at": "2026-10-13T00:06:50+07:00",
+  "captured_at_epoch_ms": 1791824810222,
+  "session_day": "2026-10-12",
+  "round": 99,
+  "rounds_in_timeline": 99,
+  "future": 4187.3,
+  "open": 4220.8,
+  "future_chg_vs_open": -33.5,
+  "atm_vol": 13.59,
+  "dte": 0.016435185185185,
+  "expiry_utc": "2026-10-12T17:30:30Z",
+  "expiry_utc_epoch": 1791826230.2,
+  "sd": {
+    "1": [
+      4183.48,
+      4191.12
+    ],
+    "2": [
+      4179.67,
+      4194.94
+    ],
+    "3": [
+      4175.85,
+      4198.77
+    ]
+  },
+  "deltas": {
+    "5P": 4179.06,
+    "15P": 4182.63,
+    "25P": 4184.3,
+    "35P": 4185.51,
+    "45P": 4186.71,
+    "45C": 4187.94,
+    "35C": 4189.25,
+    "25C": 4190.89,
+    "15C": 4193.32,
+    "5C": 4197.11
+  },
+  "smile_fit": [],
+  "vol_now_fit": [],
+  "totals": {
+    "vol_c": 405,
+    "vol_p": 641,
+    "vol_c_round": 0,
+    "vol_p_round": 2,
+    "oi_c": 45,
+    "oi_p": 305,
+    "oichg_c": 6,
+    "oichg_p": 286,
+    "pcr_vol": 1.5827,
+    "pcr_oi": 6.7778
+  },
+  "strikes": [
+    {"k":4180,"iv":13.18,"iv_now":14.63,"vol_c":12,"vol_p":164,"oi_c":16,"oi_p":51,"oichg_c":5,"oichg_p":41,"eod_c":7,"eod_p":55,"eodchg_c":2,"eodchg_p":48,"vol_c_round":0,"vol_p_round":0},
+    {"k":4185,"iv":13.11,"iv_now":13.59,"vol_c":107,"vol_p":101,"oi_c":3,"oi_p":14,"oichg_c":-1,"oichg_p":14,"eod_c":1,"eod_p":30,"eodchg_c":-3,"eodchg_p":30,"vol_c_round":0,"vol_p_round":0},
+    {"k":4190,"iv":13.05,"iv_now":15.58,"vol_c":147,"vol_p":234,"oi_c":14,"oi_p":160,"oichg_c":1,"oichg_p":156,"eod_c":6,"eod_p":228,"eodchg_c":-7,"eodchg_p":220,"vol_c_round":0,"vol_p_round":2},
+    {"k":4195,"iv":12.99,"iv_now":null,"vol_c":139,"vol_p":142,"oi_c":12,"oi_p":80,"oichg_c":1,"oichg_p":75,"eod_c":2,"eod_p":80,"eodchg_c":1,"eodchg_p":75,"vol_c_round":0,"vol_p_round":0}
+  ]
+}
