@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "G2TV6",
+  "expiration": "2026-10-13",
+  "underlying": "GCZ6",
+  "slot": "2026-10-14T00:20:00+07:00",
+  "slot_epoch_ms": 1791912000000,
+  "captured_at": "2026-10-14T00:21:20+07:00",
+  "captured_at_epoch_ms": 1791912080908,
+  "session_day": "2026-10-13",
+  "round": 127,
+  "rounds_in_timeline": 127,
+  "future": 4176.6,
+  "open": 4195.5,
+  "future_chg_vs_open": -18.9,
+  "atm_vol": 3.29,
+  "dte": 0.193645833333333,
+  "expiry_utc": "2026-10-13T22:00:11Z",
+  "expiry_utc_epoch": 1791928811.9,
+  "sd": {
+    "1": [
+      4173.44,
+      4179.76
+    ],
+    "2": [
+      4170.28,
+      4182.93
+    ],
+    "3": [
+      4167.12,
+      4186.1
+    ]
+  },
+  "deltas": {
+    "5P": 4167.28,
+    "15P": 4174.29,
+    "25P": 4175.82,
+    "35P": 4176.56,
+    "45P": 4177.57,
+    "45C": 4178.55,
+    "35C": 4179.23,
+    "25C": 4180.03,
+    "15C": 4181.83,
+    "5C": 4185.08
+  },
+  "smile_fit": [],
+  "vol_now_fit": [],
+  "totals": {
+    "vol_c": 299,
+    "vol_p": 634,
+    "vol_c_round": 1,
+    "vol_p_round": 21,
+    "oi_c": 60,
+    "oi_p": 191,
+    "oichg_c": 34,
+    "oichg_p": 86,
+    "pcr_vol": 2.1204,
+    "pcr_oi": 3.1833
+  },
+  "strikes": [
+    {"k":4170,"iv":21.39,"iv_now":5.38,"vol_c":3,"vol_p":93,"oi_c":3,"oi_p":31,"oichg_c":3,"oichg_p":24,"eod_c":3,"eod_p":58,"eodchg_c":3,"eodchg_p":53,"vol_c_round":0,"vol_p_round":0},
+    {"k":4175,"iv":21.21,"iv_now":3.63,"vol_c":2,"vol_p":64,"oi_c":21,"oi_p":93,"oichg_c":-1,"oichg_p":11,"eod_c":9,"eod_p":73,"eodchg_c":9,"eodchg_p":63,"vol_c_round":0,"vol_p_round":4},
+    {"k":4180,"iv":21.05,"iv_now":3.29,"vol_c":207,"vol_p":401,"oi_c":31,"oi_p":52,"oichg_c":30,"oichg_p":41,"eod_c":37,"eod_p":63,"eodchg_c":36,"eodchg_p":52,"vol_c_round":1,"vol_p_round":17},
+    {"k":4185,"iv":20.91,"iv_now":null,"vol_c":87,"vol_p":76,"oi_c":5,"oi_p":15,"oichg_c":2,"oichg_p":10,"eod_c":9,"eod_p":13,"eodchg_c":9,"eodchg_p":4,"vol_c_round":0,"vol_p_round":0}
+  ]
+}
