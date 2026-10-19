@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "G3MV6",
+  "expiration": "2026-10-19",
+  "underlying": "GCZ6",
+  "slot": "2026-10-19T22:20:00+07:00",
+  "slot_epoch_ms": 1792423200000,
+  "captured_at": "2026-10-19T22:22:32+07:00",
+  "captured_at_epoch_ms": 1792423352656,
+  "session_day": "2026-10-19",
+  "round": 86,
+  "rounds_in_timeline": 86,
+  "future": 4165.0,
+  "open": 4185.0,
+  "future_chg_vs_open": -20.0,
+  "atm_vol": 19.53,
+  "dte": 0.088668981481481,
+  "expiry_utc": "2026-10-19T17:30:13Z",
+  "expiry_utc_epoch": 1792431013.7,
+  "sd": {
+    "1": [
+      4152.32,
+      4177.68
+    ],
+    "2": [
+      4139.7,
+      4190.41
+    ],
+    "3": [
+      4127.12,
+      4203.19
+    ]
+  },
+  "deltas": {
+    "5P": 4136.97,
+    "15P": 4150.86,
+    "25P": 4157.06,
+    "35P": 4160.94,
+    "45P": 4164.53,
+    "45C": 4168.11,
+    "35C": 4171.44,
+    "25C": 4174.86,
+    "15C": 4180.0,
+    "5C": 4190.37
+  },
+  "smile_fit": [
+    4165,
+    70,
+    0.00296,
+    0.030885,
+    1.319628,
+    -1.04173,
+    13.630214,
+    4130,
+    4200,
+    0
+  ],
+  "vol_now_fit": [
+    4165,
+    70,
+    -4.776033,
+    14.545934,
+    32.47982,
+    -7.442506,
+    19.528115,
+    4130,
+    4200,
+    0
+  ],
+  "totals": {
+    "vol_c": 1004,
+    "vol_p": 1786,
+    "vol_c_round": 17,
+    "vol_p_round": 28,
+    "oi_c": 491,
+    "oi_p": 774,
+    "oichg_c": 215,
+    "oichg_p": 404,
+    "pcr_vol": 1.7789,
+    "pcr_oi": 1.5764
+  },
+  "strikes": [
+    {"k":4130,"iv":14.48,"iv_now":29.25,"vol_c":1,"vol_p":47,"oi_c":5,"oi_p":2,"oichg_c":0,"oichg_p":2,"eod_c":0,"eod_p":5,"eodchg_c":0,"eodchg_p":5,"vol_c_round":0,"vol_p_round":1},
+    {"k":4135,"iv":14.32,"iv_now":27.38,"vol_c":1,"vol_p":16,"oi_c":12,"oi_p":16,"oichg_c":0,"oichg_p":11,"eod_c":2,"eod_p":21,"eodchg_c":-14,"eodchg_p":15,"vol_c_round":0,"vol_p_round":0},
+    {"k":4140,"iv":14.17,"iv_now":25.59,"vol_c":0,"vol_p":67,"oi_c":1,"oi_p":22,"oichg_c":0,"oichg_p":16,"eod_c":0,"eod_p":30,"eodchg_c":-3,"eodchg_p":27,"vol_c_round":0,"vol_p_round":0},
+    {"k":4145,"iv":14.03,"iv_now":23.93,"vol_c":3,"vol_p":86,"oi_c":2,"oi_p":123,"oichg_c":1,"oichg_p":70,"eod_c":1,"eod_p":99,"eodchg_c":-1,"eodchg_p":46,"vol_c_round":0,"vol_p_round":1},
+    {"k":4150,"iv":13.91,"iv_now":22.46,"vol_c":19,"vol_p":153,"oi_c":46,"oi_p":143,"oichg_c":1,"oichg_p":51,"eod_c":1,"eod_p":184,"eodchg_c":-24,"eodchg_p":113,"vol_c_round":0,"vol_p_round":10},
+    {"k":4155,"iv":13.81,"iv_now":21.21,"vol_c":1,"vol_p":67,"oi_c":1,"oi_p":26,"oichg_c":0,"oichg_p":26,"eod_c":0,"eod_p":29,"eodchg_c":0,"eodchg_p":29,"vol_c_round":0,"vol_p_round":0},
+    {"k":4160,"iv":13.71,"iv_now":20.22,"vol_c":12,"vol_p":257,"oi_c":3,"oi_p":19,"oichg_c":0,"oichg_p":17,"eod_c":1,"eod_p":37,"eodchg_c":1,"eodchg_p":36,"vol_c_round":3,"vol_p_round":0},
+    {"k":4165,"iv":13.63,"iv_now":19.53,"vol_c":97,"vol_p":189,"oi_c":8,"oi_p":36,"oichg_c":1,"oichg_p":16,"eod_c":7,"eod_p":66,"eodchg_c":7,"eodchg_p":26,"vol_c_round":7,"vol_p_round":1},
+    {"k":4170,"iv":13.56,"iv_now":19.17,"vol_c":177,"vol_p":157,"oi_c":30,"oi_p":34,"oichg_c":28,"oichg_p":34,"eod_c":31,"eod_p":48,"eodchg_c":29,"eodchg_p":48,"vol_c_round":0,"vol_p_round":0},
+    {"k":4175,"iv":13.51,"iv_now":19.17,"vol_c":67,"vol_p":64,"oi_c":35,"oi_p":78,"oichg_c":1,"oichg_p":53,"eod_c":13,"eod_p":99,"eodchg_c":-60,"eodchg_p":85,"vol_c_round":1,"vol_p_round":0},
+    {"k":4180,"iv":13.47,"iv_now":19.56,"vol_c":90,"vol_p":189,"oi_c":65,"oi_p":54,"oichg_c":30,"oichg_p":26,"eod_c":45,"eod_p":50,"eodchg_c":42,"eodchg_p":23,"vol_c_round":1,"vol_p_round":15},
+    {"k":4185,"iv":13.44,"iv_now":20.36,"vol_c":62,"vol_p":76,"oi_c":42,"oi_p":33,"oichg_c":41,"oichg_p":33,"eod_c":64,"eod_p":43,"eodchg_c":62,"eodchg_p":43,"vol_c_round":0,"vol_p_round":0},
+    {"k":4190,"iv":13.43,"iv_now":21.6,"vol_c":171,"vol_p":275,"oi_c":97,"oi_p":44,"oichg_c":47,"oichg_p":42,"eod_c":103,"eod_p":65,"eodchg_c":83,"eodchg_p":65,"vol_c_round":0,"vol_p_round":0},
+    {"k":4195,"iv":13.43,"iv_now":23.29,"vol_c":99,"vol_p":19,"oi_c":6,"oi_p":77,"oichg_c":5,"oichg_p":13,"eod_c":7,"eod_p":37,"eodchg_c":6,"eodchg_p":37,"vol_c_round":0,"vol_p_round":0},
+    {"k":4200,"iv":13.44,"iv_now":25.45,"vol_c":204,"vol_p":124,"oi_c":138,"oi_p":67,"oichg_c":60,"oichg_p":-6,"eod_c":151,"eod_p":49,"eodchg_c":105,"eodchg_p":13,"vol_c_round":5,"vol_p_round":0}
+  ]
+}
