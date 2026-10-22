@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "G4RV6",
+  "expiration": "2026-10-22",
+  "underlying": "GCZ6",
+  "slot": "2026-10-23T00:20:00+07:00",
+  "slot_epoch_ms": 1792689600000,
+  "captured_at": "2026-10-23T00:21:12+07:00",
+  "captured_at_epoch_ms": 1792689672015,
+  "session_day": "2026-10-22",
+  "round": 133,
+  "rounds_in_timeline": 133,
+  "future": 4052.1,
+  "open": 4159.0,
+  "future_chg_vs_open": -106.9,
+  "atm_vol": 23.32,
+  "dte": 0.006168981481481,
+  "expiry_utc": "2026-10-22T17:30:05Z",
+  "expiry_utc_epoch": 1792690205.0,
+  "sd": {
+    "1": [
+      4048.21,
+      4055.99
+    ],
+    "2": [
+      4044.33,
+      4059.88
+    ],
+    "3": [
+      4040.46,
+      4063.77
+    ]
+  },
+  "deltas": {
+    "5P": 4042.71,
+    "15P": 4049.3,
+    "25P": 4051.73,
+    "35P": 4053.23,
+    "45P": 4054.73,
+    "45C": 4056.24,
+    "35C": 4057.7,
+    "25C": 4059.48,
+    "15C": 4062.28,
+    "5C": 4066.7
+  },
+  "smile_fit": [],
+  "vol_now_fit": [],
+  "totals": {
+    "vol_c": 225,
+    "vol_p": 645,
+    "vol_c_round": 0,
+    "vol_p_round": 3,
+    "oi_c": 18,
+    "oi_p": 193,
+    "oichg_c": 17,
+    "oichg_p": 48,
+    "pcr_vol": 2.8667,
+    "pcr_oi": 10.7222
+  },
+  "strikes": [
+    {"k":4045,"iv":null,"iv_now":29.98,"vol_c":0,"vol_p":53,"oi_c":0,"oi_p":13,"oichg_c":0,"oichg_p":13,"eod_c":0,"eod_p":13,"eodchg_c":0,"eodchg_p":13,"vol_c_round":0,"vol_p_round":0},
+    {"k":4050,"iv":null,"iv_now":24.7,"vol_c":178,"vol_p":237,"oi_c":18,"oi_p":98,"oichg_c":17,"oichg_p":13,"eod_c":40,"eod_p":37,"eodchg_c":40,"eodchg_p":-23,"vol_c_round":0,"vol_p_round":2},
+    {"k":4055,"iv":25.05,"iv_now":23.32,"vol_c":0,"vol_p":122,"oi_c":0,"oi_p":26,"oichg_c":0,"oichg_p":17,"eod_c":0,"eod_p":20,"eodchg_c":0,"eodchg_p":16,"vol_c_round":0,"vol_p_round":0},
+    {"k":4060,"iv":24.58,"iv_now":25.91,"vol_c":47,"vol_p":233,"oi_c":0,"oi_p":56,"oichg_c":0,"oichg_p":5,"eod_c":0,"eod_p":5,"eodchg_c":0,"eodchg_p":-46,"vol_c_round":0,"vol_p_round":1}
+  ]
+}
