@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "G4MV6",
+  "expiration": "2026-10-26",
+  "underlying": "GCZ6",
+  "slot": "2026-10-26T22:30:00+07:00",
+  "slot_epoch_ms": 1793028600000,
+  "captured_at": "2026-10-26T22:31:30+07:00",
+  "captured_at_epoch_ms": 1793028690632,
+  "session_day": "2026-10-26",
+  "round": 134,
+  "rounds_in_timeline": 134,
+  "future": 4035.9,
+  "open": 4012.2,
+  "future_chg_vs_open": 23.7,
+  "atm_vol": 19.42,
+  "dte": 0.082534722222222,
+  "expiry_utc": "2026-10-26T17:30:21Z",
+  "expiry_utc_epoch": 1793035821.6,
+  "sd": {
+    "1": [
+      4024.11,
+      4047.69
+    ],
+    "2": [
+      4012.38,
+      4059.52
+    ],
+    "3": [
+      4000.68,
+      4071.4
+    ]
+  },
+  "deltas": {
+    "5P": 4006.2,
+    "15P": 4022.33,
+    "25P": 4028.02,
+    "35P": 4031.34,
+    "45P": 4034.75,
+    "45C": 4038.19,
+    "35C": 4041.29,
+    "25C": 4044.61,
+    "15C": 4050.06,
+    "5C": 4060.44
+  },
+  "smile_fit": [
+    4037.5,
+    65,
+    -0.02919,
+    0.010263,
+    1.489092,
+    -0.490445,
+    15.210306,
+    4005,
+    4070,
+    0
+  ],
+  "vol_now_fit": [
+    4037.5,
+    65,
+    -43.963217,
+    -20.511149,
+    43.943805,
+    0.074067,
+    19.356905,
+    4005,
+    4070,
+    0
+  ],
+  "totals": {
+    "vol_c": 1173,
+    "vol_p": 1086,
+    "vol_c_round": 84,
+    "vol_p_round": 60,
+    "oi_c": 517,
+    "oi_p": 295,
+    "oichg_c": 492,
+    "oichg_p": 136,
+    "pcr_vol": 0.9258,
+    "pcr_oi": 0.5706
+  },
+  "strikes": [
+    {"k":4005,"iv":15.82,"iv_now":30.12,"vol_c":33,"vol_p":38,"oi_c":12,"oi_p":17,"oichg_c":12,"oichg_p":15,"eod_c":18,"eod_p":34,"eodchg_c":18,"eodchg_p":34,"vol_c_round":0,"vol_p_round":0},
+    {"k":4010,"iv":15.68,"iv_now":27.34,"vol_c":55,"vol_p":140,"oi_c":32,"oi_p":7,"oichg_c":32,"oichg_p":6,"eod_c":52,"eod_p":11,"eodchg_c":52,"eodchg_p":11,"vol_c_round":0,"vol_p_round":1},
+    {"k":4015,"iv":15.56,"iv_now":24.82,"vol_c":66,"vol_p":62,"oi_c":26,"oi_p":20,"oichg_c":26,"oichg_p":17,"eod_c":33,"eod_p":39,"eodchg_c":33,"eodchg_p":38,"vol_c_round":0,"vol_p_round":0},
+    {"k":4020,"iv":15.45,"iv_now":22.69,"vol_c":144,"vol_p":389,"oi_c":41,"oi_p":8,"oichg_c":39,"oichg_p":5,"eod_c":85,"eod_p":14,"eodchg_c":83,"eodchg_p":12,"vol_c_round":0,"vol_p_round":1},
+    {"k":4025,"iv":15.36,"iv_now":21.05,"vol_c":77,"vol_p":207,"oi_c":56,"oi_p":26,"oichg_c":55,"oichg_p":1,"eod_c":137,"eod_p":16,"eodchg_c":136,"eodchg_p":-42,"vol_c_round":0,"vol_p_round":1},
+    {"k":4030,"iv":15.29,"iv_now":19.96,"vol_c":128,"vol_p":130,"oi_c":38,"oi_p":57,"oichg_c":38,"oichg_p":34,"eod_c":126,"eod_p":62,"eodchg_c":126,"eodchg_p":31,"vol_c_round":0,"vol_p_round":15},
+    {"k":4035,"iv":15.23,"iv_now":19.42,"vol_c":178,"vol_p":57,"oi_c":83,"oi_p":53,"oichg_c":83,"oichg_p":49,"eod_c":173,"eod_p":106,"eodchg_c":173,"eodchg_p":100,"vol_c_round":14,"vol_p_round":14},
+    {"k":4040,"iv":15.19,"iv_now":19.42,"vol_c":139,"vol_p":29,"oi_c":24,"oi_p":17,"oichg_c":24,"oichg_p":8,"eod_c":39,"eod_p":18,"eodchg_c":39,"eodchg_p":6,"vol_c_round":4,"vol_p_round":21},
+    {"k":4045,"iv":15.17,"iv_now":19.91,"vol_c":122,"vol_p":0,"oi_c":21,"oi_p":2,"oichg_c":19,"oichg_p":0,"eod_c":47,"eod_p":2,"eodchg_c":44,"eodchg_p":0,"vol_c_round":56,"vol_p_round":0},
+    {"k":4050,"iv":15.17,"iv_now":20.79,"vol_c":110,"vol_p":34,"oi_c":61,"oi_p":77,"oichg_c":47,"oichg_p":1,"eod_c":137,"eod_p":2,"eodchg_c":111,"eodchg_p":-106,"vol_c_round":8,"vol_p_round":7},
+    {"k":4055,"iv":15.19,"iv_now":21.93,"vol_c":39,"vol_p":0,"oi_c":72,"oi_p":0,"oichg_c":70,"oichg_p":0,"eod_c":77,"eod_p":2,"eodchg_c":75,"eodchg_p":2,"vol_c_round":2,"vol_p_round":0},
+    {"k":4060,"iv":15.22,"iv_now":23.17,"vol_c":37,"vol_p":0,"oi_c":22,"oi_p":1,"oichg_c":21,"oichg_p":0,"eod_c":29,"eod_p":0,"eodchg_c":28,"eodchg_p":0,"vol_c_round":0,"vol_p_round":0},
+    {"k":4065,"iv":15.27,"iv_now":24.29,"vol_c":17,"vol_p":0,"oi_c":17,"oi_p":4,"oichg_c":17,"oichg_p":0,"eod_c":21,"eod_p":0,"eodchg_c":21,"eodchg_p":-6,"vol_c_round":0,"vol_p_round":0},
+    {"k":4070,"iv":15.34,"iv_now":25.07,"vol_c":28,"vol_p":0,"oi_c":12,"oi_p":6,"oichg_c":9,"oichg_p":0,"eod_c":23,"eod_p":8,"eodchg_c":20,"eodchg_p":0,"vol_c_round":0,"vol_p_round":0}
+  ]
+}
