@@ -1,22 +1,43 @@
 {
   "schema": 1,
   "source": "hizeiris-getvols",
-  "captured_at": "2026-10-27T06:01:40+07:00",
-  "captured_at_epoch": 1793055700.0,
+  "captured_at": "2026-10-27T06:16:40+07:00",
+  "captured_at_epoch": 1793056600.0,
   "timezone": "Asia/Bangkok",
   "max_age_seconds": 2700.0,
   "dte_floor": 0.02,
   "product": "Gold (OG|GC)",
   "contract": "OGX6",
   "expires": "10/27/2026",
-  "dte": 0.77,
-  "future": null,
+  "dte": 0.76,
+  "future": 4031.0,
   "iv": 0.20850000000000002,
   "iv_pct": 20.85,
-  "sigma_1": null,
+  "sigma_1": 38.3512,
   "sigma_formula": "future * iv * sqrt(dte/365)",
-  "zones": null,
-  "forward_vol_pct": 18.63,
+  "zones": {
+    "0.25": [
+      4021.4122,
+      4040.5878
+    ],
+    "0.5": [
+      4011.8244,
+      4050.1756
+    ],
+    "1.0": [
+      3992.6488,
+      4069.3512
+    ],
+    "1.5": [
+      3973.4732,
+      4088.5268
+    ],
+    "2.0": [
+      3954.2976,
+      4107.7024
+    ]
+  },
+  "forward_vol_pct": 18.64,
   "future_chg": null,
   "iv_chg_pct": null,
   "cme": null,
@@ -24,152 +45,152 @@
   "intraday": null,
   "oi": null,
   "oi_change": null,
-  "price_error": "ไม่มีราคาฟิวเจอร์สสดจาก timeline (รอบล่าสุดเก่าเกิน)",
+  "price_error": null,
   "all_contracts": [
     {
       "symbol": "OGX6",
       "expires": "10/27/2026",
-      "dte": 0.77,
+      "dte": 0.76,
       "iv_pct": 20.85,
-      "forward_vol_pct": 18.63
+      "forward_vol_pct": 18.64
     },
     {
       "symbol": "G4WV6",
       "expires": "10/28/2026",
-      "dte": 1.77,
+      "dte": 1.76,
       "iv_pct": 19.62,
-      "forward_vol_pct": 32.79
+      "forward_vol_pct": 32.75
     },
     {
       "symbol": "G5RV6",
       "expires": "10/29/2026",
-      "dte": 2.77,
+      "dte": 2.76,
       "iv_pct": 25.19,
-      "forward_vol_pct": 20.68
+      "forward_vol_pct": 20.7
     },
     {
       "symbol": "OG5V6",
       "expires": "10/30/2026",
-      "dte": 3.77,
+      "dte": 3.76,
       "iv_pct": 24.07,
-      "forward_vol_pct": 13.31
+      "forward_vol_pct": 13.33
     },
     {
       "symbol": "G1MX6",
       "expires": "11/2/2026",
-      "dte": 6.81,
+      "dte": 6.8,
       "iv_pct": 19.99,
       "forward_vol_pct": 21.35
     },
     {
       "symbol": "G1TX6",
       "expires": "11/3/2026",
-      "dte": 7.81,
+      "dte": 7.8,
       "iv_pct": 20.17,
-      "forward_vol_pct": 31.03
+      "forward_vol_pct": 31.02
     },
     {
       "symbol": "G1WX6",
       "expires": "11/4/2026",
-      "dte": 8.81,
+      "dte": 8.8,
       "iv_pct": 21.68,
       "forward_vol_pct": 22.55
     },
     {
       "symbol": "G1RX6",
       "expires": "11/5/2026",
-      "dte": 9.81,
+      "dte": 9.8,
       "iv_pct": 21.77,
-      "forward_vol_pct": 27.6
+      "forward_vol_pct": 27.59
     },
     {
       "symbol": "OG1X6",
       "expires": "11/6/2026",
-      "dte": 10.81,
+      "dte": 10.8,
       "iv_pct": 22.37,
       "forward_vol_pct": 14.15
     },
     {
       "symbol": "G2MX6",
       "expires": "11/9/2026",
-      "dte": 13.81,
+      "dte": 13.8,
       "iv_pct": 20.86,
       "forward_vol_pct": 28.51
     },
     {
       "symbol": "G2TX6",
       "expires": "11/10/2026",
-      "dte": 14.81,
+      "dte": 14.8,
       "iv_pct": 21.47,
       "forward_vol_pct": 21.49
     },
     {
       "symbol": "G2WX6",
       "expires": "11/11/2026",
-      "dte": 15.81,
+      "dte": 15.8,
       "iv_pct": 21.47,
       "forward_vol_pct": 22.83
     },
     {
       "symbol": "G2RX6",
       "expires": "11/12/2026",
-      "dte": 16.81,
+      "dte": 16.8,
       "iv_pct": 21.55,
       "forward_vol_pct": 23.0
     },
     {
       "symbol": "OG2X6",
       "expires": "11/13/2026",
-      "dte": 17.81,
+      "dte": 17.8,
       "iv_pct": 21.64,
-      "forward_vol_pct": 13.87
+      "forward_vol_pct": 13.88
     },
     {
       "symbol": "G3MX6",
       "expires": "11/16/2026",
-      "dte": 20.81,
+      "dte": 20.8,
       "iv_pct": 20.7,
       "forward_vol_pct": 23.24
     },
     {
       "symbol": "G3TX6",
       "expires": "11/17/2026",
-      "dte": 21.81,
+      "dte": 21.8,
       "iv_pct": 20.82,
       "forward_vol_pct": 23.57
     },
     {
       "symbol": "G3WX6",
       "expires": "11/18/2026",
-      "dte": 22.81,
+      "dte": 22.8,
       "iv_pct": 20.95,
       "forward_vol_pct": 22.75
     },
     {
       "symbol": "G3RX6",
       "expires": "11/19/2026",
-      "dte": 23.81,
+      "dte": 23.8,
       "iv_pct": 21.03,
       "forward_vol_pct": 21.76
     },
     {
       "symbol": "OG3X6",
       "expires": "11/20/2026",
-      "dte": 24.81,
+      "dte": 24.8,
       "iv_pct": 21.06,
       "forward_vol_pct": 17.51
     },
     {
       "symbol": "OGZ6",
       "expires": "11/24/2026",
-      "dte": 28.81,
+      "dte": 28.8,
       "iv_pct": 20.6,
       "forward_vol_pct": 18.49
     },
     {
       "symbol": "G1TZ6",
       "expires": "12/1/2026",
-      "dte": 35.81,
+      "dte": 35.8,
       "iv_pct": 20.21,
       "forward_vol_pct": null
     }
