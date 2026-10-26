@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "source": "hizeiris-getvols",
-  "captured_at": "2026-10-26T21:31:40+07:00",
-  "captured_at_epoch": 1793025100.0,
+  "captured_at": "2026-10-26T21:36:40+07:00",
+  "captured_at_epoch": 1793025400.0,
   "timezone": "Asia/Bangkok",
   "max_age_seconds": 2700.0,
   "dte_floor": 0.02,
@@ -10,12 +10,33 @@
   "contract": "G4MV6",
   "expires": "10/26/2026",
   "dte": 0.12,
-  "future": null,
+  "future": 4020.8,
   "iv": 0.2173,
   "iv_pct": 21.73,
-  "sigma_1": null,
+  "sigma_1": 15.8422,
   "sigma_formula": "future * iv * sqrt(dte/365)",
-  "zones": null,
+  "zones": {
+    "0.25": [
+      4016.8394,
+      4024.7606
+    ],
+    "0.5": [
+      4012.8789,
+      4028.7211
+    ],
+    "1.0": [
+      4004.9578,
+      4036.6422
+    ],
+    "1.5": [
+      3997.0367,
+      4044.5633
+    ],
+    "2.0": [
+      3989.1155,
+      4052.4845
+    ]
+  },
   "forward_vol_pct": 18.69,
   "future_chg": null,
   "iv_chg_pct": null,
@@ -24,7 +45,7 @@
   "intraday": null,
   "oi": null,
   "oi_change": null,
-  "price_error": "ไม่มีราคาฟิวเจอร์สสดจาก timeline (รอบล่าสุดเก่าเกิน)",
+  "price_error": null,
   "all_contracts": [
     {
       "symbol": "G4MV6",
@@ -45,7 +66,7 @@
       "expires": "10/28/2026",
       "dte": 2.12,
       "iv_pct": 19.24,
-      "forward_vol_pct": 34.75
+      "forward_vol_pct": 34.74
     },
     {
       "symbol": "G5RV6",
@@ -73,7 +94,7 @@
       "expires": "11/3/2026",
       "dte": 8.16,
       "iv_pct": 20.57,
-      "forward_vol_pct": 31.15
+      "forward_vol_pct": 31.14
     },
     {
       "symbol": "G1WX6",
@@ -122,7 +143,7 @@
       "expires": "11/12/2026",
       "dte": 17.16,
       "iv_pct": 21.64,
-      "forward_vol_pct": 22.9
+      "forward_vol_pct": 22.89
     },
     {
       "symbol": "OG2X6",
