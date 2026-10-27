@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "OGX6",
+  "expiration": "2026-10-27",
+  "underlying": "GCZ6",
+  "slot": "2026-10-28T00:20:00+07:00",
+  "slot_epoch_ms": 1793121600000,
+  "captured_at": "2026-10-28T00:21:20+07:00",
+  "captured_at_epoch_ms": 1793121680551,
+  "session_day": "2026-10-27",
+  "round": 130,
+  "rounds_in_timeline": 131,
+  "future": 4072.6,
+  "open": 4032.8,
+  "future_chg_vs_open": 39.8,
+  "atm_vol": 14.77,
+  "dte": 0.00605324074074,
+  "expiry_utc": "2026-10-27T17:30:03Z",
+  "expiry_utc_epoch": 1793122203.6,
+  "sd": {
+    "1": [
+      4070.15,
+      4075.05
+    ],
+    "2": [
+      4067.7,
+      4077.5
+    ],
+    "3": [
+      4065.26,
+      4079.95
+    ]
+  },
+  "deltas": {
+    "5P": 4064.62,
+    "15P": 4068.45,
+    "25P": 4069.99,
+    "35P": 4070.91,
+    "45P": 4071.83,
+    "45C": 4072.78,
+    "35C": 4073.67,
+    "25C": 4074.59,
+    "15C": 4076.11,
+    "5C": 4079.54
+  },
+  "smile_fit": [],
+  "vol_now_fit": [],
+  "totals": {
+    "vol_c": 764,
+    "vol_p": 317,
+    "vol_c_round": 0,
+    "vol_p_round": 1,
+    "oi_c": 268,
+    "oi_p": 355,
+    "oichg_c": 136,
+    "oichg_p": -9,
+    "pcr_vol": 0.4149,
+    "pcr_oi": 1.3246
+  },
+  "strikes": [
+    {"k":4070,"iv":22.79,"iv_now":14.77,"vol_c":336,"vol_p":166,"oi_c":116,"oi_p":97,"oichg_c":65,"oichg_p":-5,"eod_c":175,"eod_p":7,"eodchg_c":151,"eodchg_p":-19,"vol_c_round":0,"vol_p_round":0},
+    {"k":4075,"iv":22.94,"iv_now":14.81,"vol_c":428,"vol_p":151,"oi_c":152,"oi_p":258,"oichg_c":71,"oichg_p":-4,"eod_c":208,"eod_p":12,"eodchg_c":130,"eodchg_p":6,"vol_c_round":0,"vol_p_round":1}
+  ]
+}
