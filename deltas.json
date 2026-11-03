@@ -3,15 +3,15 @@
   "source": "hizeiris-intraday-oi",
   "kind": "delta-strikes",
   "_note": "strike ของเส้นเดลตาจาก CME (ผ่านหน้า Hizeiris)",
-  "captured_at": "2026-11-03T12:16:51+07:00",
-  "captured_at_epoch": 1793683011.513,
+  "captured_at": "2026-11-03T12:32:17+07:00",
+  "captured_at_epoch": 1793683937.326,
   "timezone": "Asia/Bangkok",
   "max_age_seconds": 1800,
   "product": "Gold (OG|GC)",
   "contract": "G1TX6",
-  "dte": 0.55130787037037,
-  "future": 3932.0,
-  "future_chg": null,
+  "dte": 0.540613425925925,
+  "future": 3936.6,
+  "future_chg": -23.9,
   "iv_pct": 27.29,
   "deltas": {
     "5DP": 3869.23,
@@ -30,31 +30,31 @@
       "delta": 5,
       "key": "5DP",
       "strike": 3869.23,
-      "dist": -62.77
+      "dist": -67.37
     },
     {
       "delta": 15,
       "key": "15DP",
       "strike": 3914.85,
-      "dist": -17.15
+      "dist": -21.75
     },
     {
       "delta": 25,
       "key": "25DP",
       "strike": 3935.96,
-      "dist": 3.96
+      "dist": -0.64
     },
     {
       "delta": 35,
       "key": "35DP",
       "strike": 3950.07,
-      "dist": 18.07
+      "dist": 13.47
     },
     {
       "delta": 45,
       "key": "45DP",
       "strike": 3963.39,
-      "dist": 31.39
+      "dist": 26.79
     }
   ],
   "call": [
@@ -62,31 +62,31 @@
       "delta": 45,
       "key": "45DC",
       "strike": 3976.56,
-      "dist": 44.56
+      "dist": 39.96
     },
     {
       "delta": 35,
       "key": "35DC",
       "strike": 3989.14,
-      "dist": 57.14
+      "dist": 52.54
     },
     {
       "delta": 25,
       "key": "25DC",
       "strike": 4002.64,
-      "dist": 70.64
+      "dist": 66.04
     },
     {
       "delta": 15,
       "key": "15DC",
       "strike": 4022.14,
-      "dist": 90.14
+      "dist": 85.54
     },
     {
       "delta": 5,
       "key": "5DC",
       "strike": 4056.62,
-      "dist": 124.62
+      "dist": 120.02
     }
   ]
 }
