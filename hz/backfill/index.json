@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "kind": "hz-backfill",
+ "_note": "ไฟล์บอทของรอบที่ส่งไม่ทันตอนนั้น (ไฟดับ/receiver ดับ) · t = เวลาเก็บจริงของรอบ (ms) · bridge วางเข้า backlog เป็น <kind>_<t>_bf<hash>.txt · ไฟล์ในแต่ละ dir ไม่ถูกแก้ซ้ำ",
+ "updated_at": "2026-11-05T18:50:16+07:00",
+ "items": [
+  {
+   "id": "G1RX6_20261105-1345",
+   "expiry": "G1RX6",
+   "slot": "2026-11-05T13:45:00+07:00",
+   "slot_epoch_ms": 1793861100000,
+   "t": 1793861218440,
+   "session_day": "2026-11-05",
+   "dir": "hz/backfill/2026-11-05/G1RX6_20261105-1345",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1793879416803
+  },
+  {
+   "id": "G1RX6_20261105-1400",
+   "expiry": "G1RX6",
+   "slot": "2026-11-05T14:00:00+07:00",
+   "slot_epoch_ms": 1793862000000,
+   "t": 1793862129523,
+   "session_day": "2026-11-05",
+   "dir": "hz/backfill/2026-11-05/G1RX6_20261105-1400",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1793879416803
+  },
+  {
+   "id": "G1RX6_20261105-1415",
+   "expiry": "G1RX6",
+   "slot": "2026-11-05T14:15:00+07:00",
+   "slot_epoch_ms": 1793862900000,
+   "t": 1793863030929,
+   "session_day": "2026-11-05",
+   "dir": "hz/backfill/2026-11-05/G1RX6_20261105-1415",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1793879416803
+  }
+ ]
+}
