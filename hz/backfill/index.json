@@ -2,7 +2,7 @@
  "schema": 1,
  "kind": "hz-backfill",
  "_note": "ไฟล์บอทของรอบที่ส่งไม่ทันตอนนั้น (ไฟดับ/receiver ดับ) · t = เวลาเก็บจริงของรอบ (ms) · bridge วางเข้า backlog เป็น <kind>_<t>_bf<hash>.txt · ไฟล์ในแต่ละ dir ไม่ถูกแก้ซ้ำ",
- "updated_at": "2026-11-05T18:50:16+07:00",
+ "updated_at": "2026-11-07T09:22:07+07:00",
  "items": [
   {
    "id": "G1RX6_20261105-1345",
@@ -48,6 +48,66 @@
     "meta": "meta.json"
    },
    "added_at": 1793879416803
+  },
+  {
+   "id": "OG1X6_20261107-0015",
+   "expiry": "OG1X6",
+   "slot": "2026-11-07T00:15:00+07:00",
+   "slot_epoch_ms": 1793985300000,
+   "t": 1793985396096,
+   "session_day": "2026-11-06",
+   "dir": "hz/backfill/2026-11-06/OG1X6_20261107-0015",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1794018127315
+  },
+  {
+   "id": "OG1X6_20261107-0020",
+   "expiry": "OG1X6",
+   "slot": "2026-11-07T00:20:00+07:00",
+   "slot_epoch_ms": 1793985600000,
+   "t": 1793985709534,
+   "session_day": "2026-11-06",
+   "dir": "hz/backfill/2026-11-06/OG1X6_20261107-0020",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1794018127315
+  },
+  {
+   "id": "OG1X6_20261107-0025",
+   "expiry": "OG1X6",
+   "slot": "2026-11-07T00:25:00+07:00",
+   "slot_epoch_ms": 1793985900000,
+   "t": 1793986011673,
+   "session_day": "2026-11-06",
+   "dir": "hz/backfill/2026-11-06/OG1X6_20261107-0025",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1794018127315
+  },
+  {
+   "id": "OG1X6_20261107-0030",
+   "expiry": "OG1X6",
+   "slot": "2026-11-07T00:30:00+07:00",
+   "slot_epoch_ms": 1793986200000,
+   "t": 1793986297665,
+   "session_day": "2026-11-06",
+   "dir": "hz/backfill/2026-11-06/OG1X6_20261107-0030",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1794018127315
   }
  ]
 }
