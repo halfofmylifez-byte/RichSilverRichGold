@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "G2MX6",
+  "expiration": "2026-11-09",
+  "underlying": "GCZ6",
+  "slot": "2026-11-09T23:00:00+07:00",
+  "slot_epoch_ms": 1794240000000,
+  "captured_at": "2026-11-09T23:02:08+07:00",
+  "captured_at_epoch_ms": 1794240128816,
+  "session_day": "2026-11-09",
+  "round": 162,
+  "rounds_in_timeline": 162,
+  "future": 4126.7,
+  "open": 4074.3,
+  "future_chg_vs_open": 52.4,
+  "atm_vol": 16.29,
+  "dte": 0.102986111111111,
+  "expiry_utc": "2026-11-09T18:30:26Z",
+  "expiry_utc_epoch": 1794249026.8,
+  "sd": {
+    "1": [
+      4115.41,
+      4137.99
+    ],
+    "2": [
+      4104.17,
+      4149.33
+    ],
+    "3": [
+      4092.95,
+      4160.7
+    ]
+  },
+  "deltas": {
+    "5P": 4101.84,
+    "15P": 4115.55,
+    "25P": 4121.06,
+    "35P": 4124.34,
+    "45P": 4127.54,
+    "45C": 4130.82,
+    "35C": 4133.83,
+    "25C": 4136.91,
+    "15C": 4141.88,
+    "5C": 4152.67
+  },
+  "smile_fit": [
+    4127.5,
+    65,
+    -0.023809,
+    -0.075811,
+    1.081568,
+    0.801168,
+    17.286032,
+    4095,
+    4160,
+    0
+  ],
+  "vol_now_fit": [
+    4127.5,
+    65,
+    -12.449226,
+    5.076939,
+    36.436155,
+    -4.88027,
+    16.421699,
+    4095,
+    4160,
+    0
+  ],
+  "totals": {
+    "vol_c": 1352,
+    "vol_p": 1046,
+    "vol_c_round": 4,
+    "vol_p_round": 3,
+    "oi_c": 932,
+    "oi_p": 187,
+    "oichg_c": 235,
+    "oichg_p": 8,
+    "pcr_vol": 0.7737,
+    "pcr_oi": 0.2006
+  },
+  "strikes": [
+    {"k":4095,"iv":17.16,"iv_now":26.56,"vol_c":21,"vol_p":76,"oi_c":25,"oi_p":6,"oichg_c":8,"oichg_p":1,"eod_c":19,"eod_p":1,"eodchg_c":-3,"eodchg_p":-18,"vol_c_round":0,"vol_p_round":0},
+    {"k":4100,"iv":17.15,"iv_now":24.22,"vol_c":86,"vol_p":263,"oi_c":289,"oi_p":14,"oichg_c":81,"oichg_p":1,"eod_c":606,"eod_p":5,"eodchg_c":488,"eodchg_p":-59,"vol_c_round":0,"vol_p_round":0},
+    {"k":4105,"iv":17.14,"iv_now":22.09,"vol_c":8,"vol_p":64,"oi_c":14,"oi_p":9,"oichg_c":6,"oichg_p":-2,"eod_c":16,"eod_p":2,"eodchg_c":8,"eodchg_p":-11,"vol_c_round":0,"vol_p_round":0},
+    {"k":4110,"iv":17.15,"iv_now":20.21,"vol_c":47,"vol_p":113,"oi_c":58,"oi_p":12,"oichg_c":49,"oichg_p":2,"eod_c":87,"eod_p":3,"eodchg_c":78,"eodchg_p":-8,"vol_c_round":0,"vol_p_round":0},
+    {"k":4115,"iv":17.17,"iv_now":18.65,"vol_c":44,"vol_p":25,"oi_c":48,"oi_p":9,"oichg_c":35,"oichg_p":0,"eod_c":56,"eod_p":0,"eodchg_c":47,"eodchg_p":-14,"vol_c_round":0,"vol_p_round":0},
+    {"k":4120,"iv":17.21,"iv_now":17.46,"vol_c":70,"vol_p":106,"oi_c":19,"oi_p":4,"oichg_c":4,"oichg_p":2,"eod_c":7,"eod_p":2,"eodchg_c":-15,"eodchg_p":-1,"vol_c_round":0,"vol_p_round":0},
+    {"k":4125,"iv":17.26,"iv_now":16.66,"vol_c":204,"vol_p":87,"oi_c":77,"oi_p":9,"oichg_c":-47,"oichg_p":1,"eod_c":138,"eod_p":1,"eodchg_c":85,"eodchg_p":-9,"vol_c_round":1,"vol_p_round":1},
+    {"k":4130,"iv":17.32,"iv_now":16.29,"vol_c":142,"vol_p":142,"oi_c":39,"oi_p":3,"oichg_c":20,"oichg_p":0,"eod_c":47,"eod_p":0,"eodchg_c":14,"eodchg_p":-10,"vol_c_round":3,"vol_p_round":2},
+    {"k":4135,"iv":17.39,"iv_now":16.35,"vol_c":110,"vol_p":140,"oi_c":42,"oi_p":3,"oichg_c":3,"oichg_p":0,"eod_c":4,"eod_p":0,"eodchg_c":-54,"eodchg_p":-3,"vol_c_round":0,"vol_p_round":0},
+    {"k":4140,"iv":17.48,"iv_now":16.85,"vol_c":103,"vol_p":21,"oi_c":45,"oi_p":0,"oichg_c":32,"oichg_p":0,"eod_c":37,"eod_p":0,"eodchg_c":23,"eodchg_p":0,"vol_c_round":0,"vol_p_round":0},
+    {"k":4145,"iv":17.58,"iv_now":17.78,"vol_c":135,"vol_p":0,"oi_c":42,"oi_p":0,"oichg_c":28,"oichg_p":0,"eod_c":56,"eod_p":0,"eodchg_c":38,"eodchg_p":0,"vol_c_round":0,"vol_p_round":0},
+    {"k":4150,"iv":17.69,"iv_now":19.13,"vol_c":182,"vol_p":7,"oi_c":210,"oi_p":116,"oichg_c":10,"oichg_p":3,"eod_c":65,"eod_p":5,"eodchg_c":-112,"eodchg_p":0,"vol_c_round":0,"vol_p_round":0},
+    {"k":4155,"iv":17.81,"iv_now":20.86,"vol_c":90,"vol_p":0,"oi_c":16,"oi_p":0,"oichg_c":2,"oichg_p":0,"eod_c":2,"eod_p":0,"eodchg_c":-19,"eodchg_p":0,"vol_c_round":0,"vol_p_round":0},
+    {"k":4160,"iv":17.95,"iv_now":22.95,"vol_c":110,"vol_p":2,"oi_c":8,"oi_p":2,"oichg_c":4,"oichg_p":0,"eod_c":6,"eod_p":0,"eodchg_c":-8,"eodchg_p":-2,"vol_c_round":0,"vol_p_round":0}
+  ]
+}
