@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "G2MX6",
+  "expiration": "2026-11-09",
+  "underlying": "GCZ6",
+  "slot": "2026-11-10T01:15:00+07:00",
+  "slot_epoch_ms": 1794248100000,
+  "captured_at": "2026-11-10T01:17:00+07:00",
+  "captured_at_epoch_ms": 1794248220396,
+  "session_day": "2026-11-10",
+  "round": 183,
+  "rounds_in_timeline": 183,
+  "future": 4111.4,
+  "open": 4074.3,
+  "future_chg_vs_open": 37.1,
+  "atm_vol": 14.97,
+  "dte": 0.009270833333333,
+  "expiry_utc": "2026-11-09T18:30:21Z",
+  "expiry_utc_epoch": 1794249021.4,
+  "sd": {
+    "1": [
+      4108.3,
+      4114.5
+    ],
+    "2": [
+      4105.2,
+      4117.61
+    ],
+    "3": [
+      4102.11,
+      4120.71
+    ]
+  },
+  "deltas": {
+    "5P": 4099.63,
+    "15P": 4107.86,
+    "25P": 4109.93,
+    "35P": 4110.93,
+    "45P": 4112.15,
+    "45C": 4113.35,
+    "35C": 4114.28,
+    "25C": 4115.33,
+    "15C": 4117.38,
+    "5C": 4120.83
+  },
+  "smile_fit": [],
+  "vol_now_fit": [],
+  "totals": {
+    "vol_c": 268,
+    "vol_p": 469,
+    "vol_c_round": 52,
+    "vol_p_round": 47,
+    "oi_c": 139,
+    "oi_p": 34,
+    "oichg_c": 94,
+    "oichg_p": 2,
+    "pcr_vol": 1.75,
+    "pcr_oi": 0.2446
+  },
+  "strikes": [
+    {"k":4105,"iv":17.14,"iv_now":21.27,"vol_c":8,"vol_p":75,"oi_c":14,"oi_p":9,"oichg_c":6,"oichg_p":-2,"eod_c":16,"eod_p":2,"eodchg_c":8,"eodchg_p":-11,"vol_c_round":0,"vol_p_round":2},
+    {"k":4110,"iv":17.15,"iv_now":15.7,"vol_c":72,"vol_p":182,"oi_c":58,"oi_p":12,"oichg_c":49,"oichg_p":2,"eod_c":87,"eod_p":3,"eodchg_c":78,"eodchg_p":-8,"vol_c_round":11,"vol_p_round":42},
+    {"k":4115,"iv":17.17,"iv_now":14.97,"vol_c":100,"vol_p":53,"oi_c":48,"oi_p":9,"oichg_c":35,"oichg_p":0,"eod_c":56,"eod_p":0,"eodchg_c":47,"eodchg_p":-14,"vol_c_round":41,"vol_p_round":1},
+    {"k":4120,"iv":17.21,"iv_now":null,"vol_c":88,"vol_p":159,"oi_c":19,"oi_p":4,"oichg_c":4,"oichg_p":2,"eod_c":7,"eod_p":2,"eodchg_c":-15,"eodchg_p":-1,"vol_c_round":0,"vol_p_round":2}
+  ]
+}
