@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "generated_at": "2026-11-09T11:32:08+07:00",
+  "generated_at_utc": "2026-11-09T04:32:08Z",
+  "generated_at_epoch": 1794198728.962,
+  "timezone": "Asia/Bangkok",
+  "session_day": "2026-11-09",
+  "session_roll_hour": 1.0,
+  "session_day_rule": "ขึ้นวันใหม่ 1:00 Asia/Bangkok — ต้องตรงกับ dayKey() ใน board_v11.html",
+  "slot": "2026-11-09T11:30:00+07:00",
+  "front": {
+    "option_contract": "G2MX6",
+    "option_code_from": "hizeiris",
+    "dte": 0.5823,
+    "expiry_date": "2026-11-09",
+    "expiry_date_from": "hizeiris_expiration",
+    "expiry_utc": "2026-11-09T18:30:37Z",
+    "expiry_utc_epoch": 1794249037.0,
+    "expiry_utc_from": "solved_from_dte",
+    "seconds_to_expiry": 50308.0,
+    "expired": false,
+    "underlying": {
+      "product": "Gold (OG|GC)",
+      "future_root": "GC",
+      "price": 4129.9,
+      "price_chg": 55.6,
+      "price_chg_basis": "day_open",
+      "symbol": "GCZ6",
+      "symbol_from": "hizeiris_underlying",
+      "symbol_variants": [
+        "GCZ6",
+        "GCZ26",
+        "GCZ2026"
+      ],
+      "future_month": "Dec 2026"
+    }
+  },
+  "next": {
+    "option_contract": "G2TX6",
+    "option_code_from": "hizeiris",
+    "dte": 1.5823,
+    "expiry_date": "2026-11-10",
+    "expiry_date_from": "hizeiris_expiration",
+    "expiry_utc": "2026-11-10T18:30:37Z",
+    "expiry_utc_epoch": 1794335437.0,
+    "expiry_utc_from": "solved_from_dte",
+    "seconds_to_expiry": 136708.0,
+    "expired": false,
+    "underlying": {
+      "product": "Gold (OG|GC)",
+      "future_root": "GC",
+      "price": 4129.9,
+      "price_chg": 55.6,
+      "price_chg_basis": "day_open",
+      "symbol": "GCZ6",
+      "symbol_from": "hizeiris_underlying",
+      "symbol_variants": [
+        "GCZ6",
+        "GCZ26",
+        "GCZ2026"
+      ],
+      "future_month": "Dec 2026"
+    }
+  },
+  "mt5_hint": {
+    "match_by": "price",
+    "_วิธีใช้": "เลือก symbol ฟิวเจอร์สที่ราคาใกล้ front.underlying.price ที่สุด · ห่างเกิน max_abs_diff = อย่าเพิ่งยิง",
+    "candidates": [
+      "GCZ6",
+      "GCZ26",
+      "GCZ2026"
+    ],
+    "max_abs_diff": 25.0
+  }
+}
