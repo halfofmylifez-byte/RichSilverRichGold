@@ -2,7 +2,7 @@
  "schema": 1,
  "kind": "hz-backfill",
  "_note": "ไฟล์บอทของรอบที่ส่งไม่ทันตอนนั้น (ไฟดับ/receiver ดับ) · t = เวลาเก็บจริงของรอบ (ms) · bridge วางเข้า backlog เป็น <kind>_<t>_bf<hash>.txt · ไฟล์ในแต่ละ dir ไม่ถูกแก้ซ้ำ",
- "updated_at": "2026-11-09T20:33:41+07:00",
+ "updated_at": "2026-11-12T22:58:25+07:00",
  "items": [
   {
    "id": "G1RX6_20261105-1345",
@@ -273,6 +273,21 @@
     "meta": "meta.json"
    },
    "added_at": 1794231221351
+  },
+  {
+   "id": "G2RX6_20261112-2250",
+   "expiry": "G2RX6",
+   "slot": "2026-11-12T22:50:00+07:00",
+   "slot_epoch_ms": 1794498600000,
+   "t": 1794498728213,
+   "session_day": "2026-11-12",
+   "dir": "hz/backfill/2026-11-12/G2RX6_20261112-2250",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1794499105280
   }
  ]
 }
