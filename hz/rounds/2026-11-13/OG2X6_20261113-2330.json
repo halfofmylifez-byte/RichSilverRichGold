@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "product": "Gold (OG|GC)",
+  "expiry": "OG2X6",
+  "expiration": "2026-11-13",
+  "underlying": "GCZ6",
+  "slot": "2026-11-13T23:30:00+07:00",
+  "slot_epoch_ms": 1794587400000,
+  "captured_at": "2026-11-13T23:31:48+07:00",
+  "captured_at_epoch_ms": 1794587508998,
+  "session_day": "2026-11-13",
+  "round": 183,
+  "rounds_in_timeline": 183,
+  "future": 3881.0,
+  "open": 3883.3,
+  "future_chg_vs_open": -2.3,
+  "atm_vol": 18.85,
+  "dte": 0.082349537037037,
+  "expiry_utc": "2026-11-13T18:30:23Z",
+  "expiry_utc_epoch": 1794594624.0,
+  "sd": {
+    "1": [
+      3870.01,
+      3891.99
+    ],
+    "2": [
+      3859.07,
+      3903.02
+    ],
+    "3": [
+      3848.16,
+      3914.09
+    ]
+  },
+  "deltas": {
+    "5P": 3854.3,
+    "15P": 3866.98,
+    "25P": 3872.36,
+    "35P": 3875.62,
+    "45P": 3878.73,
+    "45C": 3881.91,
+    "35C": 3884.85,
+    "25C": 3887.83,
+    "15C": 3892.55,
+    "5C": 3902.82
+  },
+  "smile_fit": [
+    3880,
+    60,
+    0.030374,
+    0.24282,
+    1.079662,
+    -3.092698,
+    31.902756,
+    3850,
+    3910,
+    0
+  ],
+  "vol_now_fit": [
+    3880,
+    60,
+    -4.050963,
+    9.690798,
+    35.150924,
+    -4.560564,
+    18.850485,
+    3850,
+    3910,
+    0
+  ],
+  "totals": {
+    "vol_c": 1301,
+    "vol_p": 3070,
+    "vol_c_round": 236,
+    "vol_p_round": 96,
+    "oi_c": 469,
+    "oi_p": 1237,
+    "oichg_c": 433,
+    "oichg_p": 361,
+    "pcr_vol": 2.3597,
+    "pcr_oi": 2.6375
+  },
+  "strikes": [
+    {"k":3850,"iv":33.69,"iv_now":28.45,"vol_c":22,"vol_p":1109,"oi_c":33,"oi_p":287,"oichg_c":33,"oichg_p":15,"eod_c":45,"eod_p":441,"eodchg_c":45,"eodchg_p":434,"vol_c_round":0,"vol_p_round":5},
+    {"k":3855,"iv":33.36,"iv_now":26.03,"vol_c":0,"vol_p":25,"oi_c":1,"oi_p":16,"oichg_c":1,"oichg_p":13,"eod_c":1,"eod_p":30,"eodchg_c":1,"eodchg_p":30,"vol_c_round":0,"vol_p_round":0},
+    {"k":3860,"iv":33.04,"iv_now":23.87,"vol_c":0,"vol_p":74,"oi_c":3,"oi_p":45,"oichg_c":3,"oichg_p":38,"eod_c":3,"eod_p":153,"eodchg_c":3,"eodchg_p":146,"vol_c_round":0,"vol_p_round":0},
+    {"k":3865,"iv":32.74,"iv_now":22.02,"vol_c":0,"vol_p":68,"oi_c":3,"oi_p":25,"oichg_c":3,"oichg_p":20,"eod_c":6,"eod_p":43,"eodchg_c":6,"eodchg_p":33,"vol_c_round":0,"vol_p_round":1},
+    {"k":3870,"iv":32.45,"iv_now":20.54,"vol_c":18,"vol_p":116,"oi_c":17,"oi_p":69,"oichg_c":17,"oichg_p":65,"eod_c":31,"eod_p":85,"eodchg_c":31,"eodchg_p":83,"vol_c_round":11,"vol_p_round":16},
+    {"k":3875,"iv":32.17,"iv_now":19.47,"vol_c":33,"vol_p":238,"oi_c":18,"oi_p":104,"oichg_c":15,"oichg_p":2,"eod_c":24,"eod_p":125,"eodchg_c":24,"eodchg_p":121,"vol_c_round":13,"vol_p_round":13},
+    {"k":3880,"iv":31.9,"iv_now":18.85,"vol_c":122,"vol_p":379,"oi_c":36,"oi_p":54,"oichg_c":36,"oichg_p":45,"eod_c":61,"eod_p":81,"eodchg_c":61,"eodchg_p":79,"vol_c_round":13,"vol_p_round":40},
+    {"k":3885,"iv":31.65,"iv_now":18.72,"vol_c":114,"vol_p":187,"oi_c":48,"oi_p":81,"oichg_c":48,"oichg_p":74,"eod_c":54,"eod_p":98,"eodchg_c":54,"eodchg_p":88,"vol_c_round":33,"vol_p_round":15},
+    {"k":3890,"iv":31.42,"iv_now":19.11,"vol_c":196,"vol_p":413,"oi_c":19,"oi_p":14,"oichg_c":19,"oichg_p":8,"eod_c":45,"eod_p":16,"eodchg_c":45,"eodchg_p":6,"vol_c_round":86,"vol_p_round":2},
+    {"k":3895,"iv":31.2,"iv_now":20.04,"vol_c":69,"vol_p":122,"oi_c":10,"oi_p":50,"oichg_c":10,"oichg_p":-1,"eod_c":27,"eod_p":116,"eodchg_c":27,"eodchg_p":65,"vol_c_round":3,"vol_p_round":0},
+    {"k":3900,"iv":31.0,"iv_now":21.54,"vol_c":542,"vol_p":302,"oi_c":199,"oi_p":476,"oichg_c":167,"oichg_p":75,"eod_c":357,"eod_p":498,"eodchg_c":357,"eodchg_p":416,"vol_c_round":76,"vol_p_round":1},
+    {"k":3905,"iv":30.82,"iv_now":23.63,"vol_c":24,"vol_p":23,"oi_c":41,"oi_p":8,"oichg_c":40,"oichg_p":4,"eod_c":70,"eod_p":7,"eodchg_c":70,"eodchg_p":2,"vol_c_round":0,"vol_p_round":0},
+    {"k":3910,"iv":30.66,"iv_now":26.32,"vol_c":161,"vol_p":14,"oi_c":41,"oi_p":8,"oichg_c":41,"oichg_p":3,"eod_c":65,"eod_p":11,"eodchg_c":65,"eodchg_p":6,"vol_c_round":1,"vol_p_round":3}
+  ]
+}
