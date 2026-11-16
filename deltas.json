@@ -3,90 +3,90 @@
   "source": "hizeiris-intraday-oi",
   "kind": "delta-strikes",
   "_note": "strike ของเส้นเดลตาจาก CME (ผ่านหน้า Hizeiris)",
-  "captured_at": "2026-11-16T22:16:44+07:00",
-  "captured_at_epoch": 1794842204.773,
+  "captured_at": "2026-11-16T22:21:58+07:00",
+  "captured_at_epoch": 1794842518.67,
   "timezone": "Asia/Bangkok",
   "max_age_seconds": 1800,
   "product": "Gold (OG|GC)",
   "contract": "G3MX6",
-  "dte": 0.134560185185185,
-  "future": 3884.1,
-  "future_chg": 14.4,
-  "iv_pct": 23.49,
+  "dte": 0.130925925925925,
+  "future": 3883.6,
+  "future_chg": 13.9,
+  "iv_pct": 24.41,
   "deltas": {
-    "5DP": 3847.28,
-    "15DP": 3861.2,
-    "25DP": 3868.99,
-    "35DP": 3874.22,
-    "45DP": 3878.91,
-    "45DC": 3883.7,
-    "35DC": 3888.46,
-    "25DC": 3893.45,
-    "15DC": 3901.0,
-    "5DC": 3917.6
+    "5DP": 3841.43,
+    "15DP": 3855.58,
+    "25DP": 3863.38,
+    "35DP": 3868.7,
+    "45DP": 3873.53,
+    "45DC": 3878.42,
+    "35DC": 3883.26,
+    "25DC": 3888.38,
+    "15DC": 3895.94,
+    "5DC": 3911.73
   },
   "put": [
     {
       "delta": 5,
       "key": "5DP",
-      "strike": 3847.28,
-      "dist": -36.82
+      "strike": 3841.43,
+      "dist": -42.17
     },
     {
       "delta": 15,
       "key": "15DP",
-      "strike": 3861.2,
-      "dist": -22.9
+      "strike": 3855.58,
+      "dist": -28.02
     },
     {
       "delta": 25,
       "key": "25DP",
-      "strike": 3868.99,
-      "dist": -15.11
+      "strike": 3863.38,
+      "dist": -20.22
     },
     {
       "delta": 35,
       "key": "35DP",
-      "strike": 3874.22,
-      "dist": -9.88
+      "strike": 3868.7,
+      "dist": -14.9
     },
     {
       "delta": 45,
       "key": "45DP",
-      "strike": 3878.91,
-      "dist": -5.19
+      "strike": 3873.53,
+      "dist": -10.07
     }
   ],
   "call": [
     {
       "delta": 45,
       "key": "45DC",
-      "strike": 3883.7,
-      "dist": -0.4
+      "strike": 3878.42,
+      "dist": -5.18
     },
     {
       "delta": 35,
       "key": "35DC",
-      "strike": 3888.46,
-      "dist": 4.36
+      "strike": 3883.26,
+      "dist": -0.34
     },
     {
       "delta": 25,
       "key": "25DC",
-      "strike": 3893.45,
-      "dist": 9.35
+      "strike": 3888.38,
+      "dist": 4.78
     },
     {
       "delta": 15,
       "key": "15DC",
-      "strike": 3901.0,
-      "dist": 16.9
+      "strike": 3895.94,
+      "dist": 12.34
     },
     {
       "delta": 5,
       "key": "5DC",
-      "strike": 3917.6,
-      "dist": 33.5
+      "strike": 3911.73,
+      "dist": 28.13
     }
   ]
 }
