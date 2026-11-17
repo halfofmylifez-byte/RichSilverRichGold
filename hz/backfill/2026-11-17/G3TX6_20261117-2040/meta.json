@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "source": "hizeiris-intraday-oi",
+  "generated_at": "2026-11-17T20:43:34+07:00",
+  "generated_at_utc": "2026-11-17T13:43:34Z",
+  "generated_at_epoch": 1794923014.54,
+  "timezone": "Asia/Bangkok",
+  "session_day": "2026-11-17",
+  "session_roll_hour": 1.0,
+  "session_day_rule": "ขึ้นวันใหม่ 1:00 Asia/Bangkok — ต้องตรงกับ dayKey() ใน board_v11.html",
+  "slot": "2026-11-17T20:40:00+07:00",
+  "front": {
+    "option_contract": "G3TX6",
+    "option_code_from": "hizeiris",
+    "dte": 0.1994,
+    "expiry_date": "2026-11-17",
+    "expiry_date_from": "hizeiris_expiration",
+    "expiry_utc": "2026-11-17T18:30:40Z",
+    "expiry_utc_epoch": 1794940240.5,
+    "expiry_utc_from": "solved_from_dte",
+    "seconds_to_expiry": 17226.0,
+    "expired": false,
+    "underlying": {
+      "product": "Gold (OG|GC)",
+      "future_root": "GC",
+      "price": 3858.7,
+      "price_chg": -0.8,
+      "price_chg_basis": "day_open",
+      "symbol": "GCZ6",
+      "symbol_from": "hizeiris_underlying",
+      "symbol_variants": [
+        "GCZ6",
+        "GCZ26",
+        "GCZ2026"
+      ],
+      "future_month": "Dec 2026"
+    }
+  },
+  "next": {
+    "option_contract": "G3WX6",
+    "option_code_from": "hizeiris",
+    "dte": 1.1994,
+    "expiry_date": "2026-11-18",
+    "expiry_date_from": "hizeiris_expiration",
+    "expiry_utc": "2026-11-18T18:30:40Z",
+    "expiry_utc_epoch": 1795026640.5,
+    "expiry_utc_from": "solved_from_dte",
+    "seconds_to_expiry": 103626.0,
+    "expired": false,
+    "underlying": {
+      "product": "Gold (OG|GC)",
+      "future_root": "GC",
+      "price": 3858.7,
+      "price_chg": -0.8,
+      "price_chg_basis": "day_open",
+      "symbol": "GCZ6",
+      "symbol_from": "hizeiris_underlying",
+      "symbol_variants": [
+        "GCZ6",
+        "GCZ26",
+        "GCZ2026"
+      ],
+      "future_month": "Dec 2026"
+    }
+  },
+  "mt5_hint": {
+    "match_by": "price",
+    "_วิธีใช้": "เลือก symbol ฟิวเจอร์สที่ราคาใกล้ front.underlying.price ที่สุด · ห่างเกิน max_abs_diff = อย่าเพิ่งยิง",
+    "candidates": [
+      "GCZ6",
+      "GCZ26",
+      "GCZ2026"
+    ],
+    "max_abs_diff": 25.0
+  }
+}
