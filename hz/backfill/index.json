@@ -2,233 +2,8 @@
  "schema": 1,
  "kind": "hz-backfill",
  "_note": "ไฟล์บอทของรอบที่ส่งไม่ทันตอนนั้น (ไฟดับ/receiver ดับ) · t = เวลาเก็บจริงของรอบ (ms) · bridge วางเข้า backlog เป็น <kind>_<t>_bf<hash>.txt · ไฟล์ในแต่ละ dir ไม่ถูกแก้ซ้ำ",
- "updated_at": "2026-11-20T22:24:29+07:00",
+ "updated_at": "2026-11-25T22:13:26+07:00",
  "items": [
-  {
-   "id": "OG1X6_20261107-0015",
-   "expiry": "OG1X6",
-   "slot": "2026-11-07T00:15:00+07:00",
-   "slot_epoch_ms": 1793985300000,
-   "t": 1793985396096,
-   "session_day": "2026-11-06",
-   "dir": "hz/backfill/2026-11-06/OG1X6_20261107-0015",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794018127315
-  },
-  {
-   "id": "OG1X6_20261107-0020",
-   "expiry": "OG1X6",
-   "slot": "2026-11-07T00:20:00+07:00",
-   "slot_epoch_ms": 1793985600000,
-   "t": 1793985709534,
-   "session_day": "2026-11-06",
-   "dir": "hz/backfill/2026-11-06/OG1X6_20261107-0020",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794018127315
-  },
-  {
-   "id": "OG1X6_20261107-0025",
-   "expiry": "OG1X6",
-   "slot": "2026-11-07T00:25:00+07:00",
-   "slot_epoch_ms": 1793985900000,
-   "t": 1793986011673,
-   "session_day": "2026-11-06",
-   "dir": "hz/backfill/2026-11-06/OG1X6_20261107-0025",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794018127315
-  },
-  {
-   "id": "OG1X6_20261107-0030",
-   "expiry": "OG1X6",
-   "slot": "2026-11-07T00:30:00+07:00",
-   "slot_epoch_ms": 1793986200000,
-   "t": 1793986297665,
-   "session_day": "2026-11-06",
-   "dir": "hz/backfill/2026-11-06/OG1X6_20261107-0030",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794018127315
-  },
-  {
-   "id": "G2MX6_20261109-1130",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T11:30:00+07:00",
-   "slot_epoch_ms": 1794198600000,
-   "t": 1794198728962,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1130",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1145",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T11:45:00+07:00",
-   "slot_epoch_ms": 1794199500000,
-   "t": 1794199626607,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1145",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1200",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T12:00:00+07:00",
-   "slot_epoch_ms": 1794200400000,
-   "t": 1794200519080,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1200",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1215",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T12:15:00+07:00",
-   "slot_epoch_ms": 1794201300000,
-   "t": 1794201413131,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1215",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1230",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T12:30:00+07:00",
-   "slot_epoch_ms": 1794202200000,
-   "t": 1794202321558,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1230",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1245",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T12:45:00+07:00",
-   "slot_epoch_ms": 1794203100000,
-   "t": 1794203197807,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1245",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1300",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T13:00:00+07:00",
-   "slot_epoch_ms": 1794204000000,
-   "t": 1794204099912,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1300",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1315",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T13:15:00+07:00",
-   "slot_epoch_ms": 1794204900000,
-   "t": 1794205030183,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1315",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1330",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T13:30:00+07:00",
-   "slot_epoch_ms": 1794205800000,
-   "t": 1794205928008,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1330",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-1345",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T13:45:00+07:00",
-   "slot_epoch_ms": 1794206700000,
-   "t": 1794206825260,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-1345",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794208652432
-  },
-  {
-   "id": "G2MX6_20261109-2025",
-   "expiry": "G2MX6",
-   "slot": "2026-11-09T20:25:00+07:00",
-   "slot_epoch_ms": 1794230700000,
-   "t": 1794230815734,
-   "session_day": "2026-11-09",
-   "dir": "hz/backfill/2026-11-09/G2MX6_20261109-2025",
-   "files": {
-    "vol": "IntradayData.txt",
-    "oi": "OIData.txt",
-    "meta": "meta.json"
-   },
-   "added_at": 1794231221351
-  },
   {
    "id": "G2RX6_20261112-2250",
    "expiry": "G2RX6",
@@ -288,6 +63,21 @@
     "meta": "meta.json"
    },
    "added_at": 1795188269872
+  },
+  {
+   "id": "G4WX6_20261125-2205",
+   "expiry": "G4WX6",
+   "slot": "2026-11-25T22:05:00+07:00",
+   "slot_epoch_ms": 1795619100000,
+   "t": 1795619214795,
+   "session_day": "2026-11-25",
+   "dir": "hz/backfill/2026-11-25/G4WX6_20261125-2205",
+   "files": {
+    "vol": "IntradayData.txt",
+    "oi": "OIData.txt",
+    "meta": "meta.json"
+   },
+   "added_at": 1795619606273
   }
  ]
 }
